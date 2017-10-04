@@ -8,5 +8,11 @@ namespace Memory
 {
     class random
     {
+
+        public static void Rand()
+        {
+
+        }
+
     }
 }
