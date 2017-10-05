@@ -54,9 +54,11 @@ namespace Memory
             this.Controls.Add(pbName[i]);
         }
               }
-         
 
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
 
-}
+        }
+    }
     }
 }
