@@ -39,6 +39,13 @@
             this.pictureBox1.Size = new System.Drawing.Size(186, 170);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+
+            /*
+             PictureBox newPB = new PictureBox;
+             newPB.Size = new System.Drawing.Size();
+             newPB.Location = new System.Drawing.Point();
+             form1.Controls.Add;
+             */
             // 
             // Form1
             // 
