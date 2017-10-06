@@ -12,10 +12,11 @@ namespace Memory
         public static void Rand()
         {
             string[] shuf = new string[16] {"1", "2", "3", "4", "5", "6", "7", "8", "1", "2", "3", "4", "5", "6", "7", "8"};
+            Random rnd = new Random();
             for (int t = 0; t < shuf.Length; t++)
             {
                 string tmp = shuf[t];
-                int r = Random.Range(t, shuf.Length);
+                int r = rnd.Next(t, shuf.Length);
                 shuf[t] = shuf[r];
                 shuf[r] = tmp;
             }
