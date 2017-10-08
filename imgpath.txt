@@ -1,0 +1,7 @@
+string imgpath = (System.IO.Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).Parent.FullName).ToString() + @"\Placeholder\kaartje_" + "1" + ".png";
+this.pictureBox2.Image = System.Drawing.Image.FromFile(imgpath);
+
+PictureBox newPB = new PictureBox;
+newPB.Size = new System.Ddrawwing.Size();
+newPB.Loation = new System.Drawing.Point();
+forms1.Controls.Add;
