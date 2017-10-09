@@ -1,4 +1,6 @@
-﻿namespace Memory
+﻿using System.IO;
+
+namespace Memory
 {
     partial class Form1
     {
@@ -64,7 +66,7 @@
             this.SuspendLayout();
             // 
             // pictureBox2
-            string imgpath = (System.IO.Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).Parent.FullName).ToString() + @"\Placeholder\kaartje_" + "1" + ".png";
+            string imgpath = (Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName).ToString() + @"\placeholder\kaartje1" + ".png";
             this.pictureBox2.Image = System.Drawing.Image.FromFile(imgpath);
             //this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(39, 29);

@@ -54,7 +54,6 @@
     <Compile Include="gameplay.cs" />
     <Compile Include="highscores.cs" />
     <Compile Include="kaarten.cs" />
-    <Compile Include="login.cs" />
     <Compile Include="menu.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
