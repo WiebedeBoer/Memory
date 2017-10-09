@@ -40,7 +40,7 @@ namespace memory
                 for (int cColumn = 0; cColumn < Columns; cColumn++)
                 {
                     PictureBox Box = new PictureBox();
-                    Box.Location = new System.Drawing.Point(cColumn * 128, cRow * 128);
+                    Box.Location = new System.Drawing.Point(10 + cColumn * 138, cRow * 138);
                     Box.Name = "pictureBox" + i;
                     Box.Size = new System.Drawing.Size(128, 128);
                     Plaatjes[i] = Box;
