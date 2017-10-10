@@ -36,26 +36,13 @@
             this.saveGameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.highscoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.optiesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.themaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.thema1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.thema2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.playersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
-            this.sizeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.x4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.x8ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.x16ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menuToolStripMenuItem,
-            this.optiesToolStripMenuItem});
+            this.menuToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(395, 24);
@@ -119,93 +106,6 @@
             this.quitToolStripMenuItem.Text = "Quit";
             this.quitToolStripMenuItem.Click += new System.EventHandler(this.quitToolStripMenuItem_Click);
             // 
-            // optiesToolStripMenuItem
-            // 
-            this.optiesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.themaToolStripMenuItem,
-            this.playersToolStripMenuItem,
-            this.sizeToolStripMenuItem});
-            this.optiesToolStripMenuItem.Name = "optiesToolStripMenuItem";
-            this.optiesToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
-            this.optiesToolStripMenuItem.Text = "Opties";
-            // 
-            // themaToolStripMenuItem
-            // 
-            this.themaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.thema1ToolStripMenuItem,
-            this.thema2ToolStripMenuItem});
-            this.themaToolStripMenuItem.Name = "themaToolStripMenuItem";
-            this.themaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.themaToolStripMenuItem.Text = "Theme";
-            // 
-            // thema1ToolStripMenuItem
-            // 
-            this.thema1ToolStripMenuItem.Name = "thema1ToolStripMenuItem";
-            this.thema1ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.thema1ToolStripMenuItem.Text = "Theme 1";
-            // 
-            // thema2ToolStripMenuItem
-            // 
-            this.thema2ToolStripMenuItem.Name = "thema2ToolStripMenuItem";
-            this.thema2ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.thema2ToolStripMenuItem.Text = "Theme 2";
-            // 
-            // playersToolStripMenuItem
-            // 
-            this.playersToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem2,
-            this.toolStripMenuItem3,
-            this.toolStripMenuItem4});
-            this.playersToolStripMenuItem.Name = "playersToolStripMenuItem";
-            this.playersToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.playersToolStripMenuItem.Text = "Players";
-            // 
-            // toolStripMenuItem2
-            // 
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(152, 22);
-            this.toolStripMenuItem2.Text = "2";
-            // 
-            // toolStripMenuItem3
-            // 
-            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(152, 22);
-            this.toolStripMenuItem3.Text = "4";
-            // 
-            // toolStripMenuItem4
-            // 
-            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(152, 22);
-            this.toolStripMenuItem4.Text = "6";
-            // 
-            // sizeToolStripMenuItem
-            // 
-            this.sizeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x4ToolStripMenuItem,
-            this.x8ToolStripMenuItem,
-            this.x16ToolStripMenuItem});
-            this.sizeToolStripMenuItem.Name = "sizeToolStripMenuItem";
-            this.sizeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.sizeToolStripMenuItem.Text = "Size";
-            // 
-            // x4ToolStripMenuItem
-            // 
-            this.x4ToolStripMenuItem.Name = "x4ToolStripMenuItem";
-            this.x4ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.x4ToolStripMenuItem.Text = "4 x 4";
-            // 
-            // x8ToolStripMenuItem
-            // 
-            this.x8ToolStripMenuItem.Name = "x8ToolStripMenuItem";
-            this.x8ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.x8ToolStripMenuItem.Text = "8 x 8";
-            // 
-            // x16ToolStripMenuItem
-            // 
-            this.x16ToolStripMenuItem.Name = "x16ToolStripMenuItem";
-            this.x16ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.x16ToolStripMenuItem.Text = "16 x 16";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -232,18 +132,6 @@
         private System.Windows.Forms.ToolStripMenuItem saveGameToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem highscoresToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem quitToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem optiesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem themaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem thema1ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem thema2ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem playersToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
-        private System.Windows.Forms.ToolStripMenuItem sizeToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem x4ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem x8ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem x16ToolStripMenuItem;
     }
 }
 
